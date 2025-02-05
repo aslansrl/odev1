@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  body {
+    background-color: hsl(47, 88%, 63%);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+
+  header {
+    display: inline;
+  }
+
+  .card {
+    background-color: white;
+    color: black;
+    width: 410px;
+    height: 570px;
+    padding: 24px;
+    text-align: left;
+    border: 2px solid black;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-top: 80px;
+    border-radius: 15px;
+    box-shadow: 10px 10px;
+  }
+
+  .resim {
+    box-sizing: border-box;
+    border-radius: 15px;
+    width: 357px;
+    height: 217px;
+  }
+
+  .Subject { 
+    background-color: hsl(47, 88%, 63%);
+    display: inline-block;
+    color: hsl(0, 0%, 7%);
+    width: 25%;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 12px;
+    font-weight: 1000;
+  }
+
+  .Date {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: rgb(18, 18, 18);
+  }
+
+  h1.Title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: rgb(18, 18, 18);
+  }
+  
+  p {
+    display: block;
+  }
+
+  .Content {
+    color: hsl(0, 0%, 42%);
+    margin-bottom: 15px;
+    font-weight: 500;
+  }
+
+  .Author {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+
+  }
+  
+  .resimavatar {
+    margin-right: 20px;
+  }
+
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
